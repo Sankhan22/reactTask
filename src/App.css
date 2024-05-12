@@ -1,0 +1,365 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:sans-serif;
+
+}
+html{
+  font-size: 62.5%;
+}
+.container{
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  width: 100%;
+
+}
+.dropdown{
+  display: none;
+  position: absolute;
+  color:black;
+  background-color: white;
+  border-radius: 1rem;
+  top: 7rem;
+
+
+}
+.dropdown li{
+  padding: 1rem 2rem;
+  border-bottom: 0.1rem solid rgba(202, 199, 199, 0.2);
+}
+.dropbutton:hover .dropdown{
+  display: block;
+
+}
+.image{
+  width: 100%;
+  height: 90rem;
+  background-image: url(https://templatemo.com/templates/templatemo_574_mexant/assets/images/slide-01.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar{
+  width: 100%;
+  height: 9rem;
+
+ color: white;
+ background-color: rgb(10, 10, 31);
+ position: fixed;
+}
+.navbar__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul :hover{
+  color: orangered;
+  cursor: pointer;
+}
+a{
+  color:orangered;
+}
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+.btn{
+  padding: 1.5rem 3rem;
+  background-color: #43ba7f;
+  color: white;
+  font-size:  2rem;
+  border-radius: 1rem;
+  border: none;
+}
+.text__box{
+  width: 55%;
+  color: white;
+  padding: 9rem 0;
+}
+.text__box{
+  font-size: 2rem;
+}
+h2{
+  font-family: sans-serif;
+  font-size: 5.6rem;
+}
+span{
+  color: orangered;
+}
+.button{
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  
+}
+.bnn{
+  background-color: orangered;
+}
+/*services*/
+section{
+  width: 100%;
+
+}
+.flex__box{
+  
+padding: 4rem;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 2rem;
+}
+.temp{
+  width: 65rem;
+  height: 20rem;
+  display: flex;
+  gap: 2rem;
+  font-size: 3rem;
+  padding: 2rem;
+  border-radius: 1.2rem;
+  background-color: white;
+  box-shadow: 0rem 0rem 0.5rem #999;
+  
+}
+.icon{
+  padding: 2rem;
+}
+.bi {
+  color:#43ba7f;
+ 
+  font-size: 6.4rem;
+  
+
+}
+.cssTemp{
+  padding: 2rem;
+  
+}
+.temp p{
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+
+}
+.simple{
+  width: 100%;
+  height: 25rem;
+  background-image: url(https://templatemo.com/templates/templatemo_574_mexant/assets/images/cta-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.green{
+  color: #43ba7f;
+}
+.simple__box{
+ 
+}
+.simple h1{
+  font-size: 3.6rem;
+  color: white;
+  width: 50rem;
+}
+.better{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about h3{
+ color: red;
+ text-align: center;
+ padding: 2rem ;
+ font-size: 1.6rem ;
+}
+.about h1{
+  text-align: center;
+  font-size:3.6rem ;
+}
+.aboutText{
+  width: 40rem;
+
+}
+.aboutText h4{
+font-size: 2.6rem;
+margin: 0 0 4rem;
+}
+.aboutText p{
+  font-size: 1.8rem;
+  margin: 0 0 5rem;
+}
+.buttons{
+  font-size: 2rem;
+  width: 80rem;
+
+  margin: 0 0 2rem;
+}
+.btnBox{
+  padding: 1.5rem 4rem;
+  border: none;
+  border-radius: 1rem;
+  margin: 0 3rem 0 0;
+  font-size: 1.8rem;
+}
+.table{
+  width: 80rem;
+  height: 40rem;
+}
+
+.freedom{
+  width: 100%;
+  height: 60rem;
+  background-image: url(https://templatemo.com/templates/templatemo_574_mexant/assets/images/calculator-bg.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+
+
+}
+.fotoBox{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 1.2rem;
+
+}
+.foto{
+padding: 2rem;
+margin: -7rem 4.5rem -8rem 0px;
+}
+form{
+  width: 60rem;
+ margin: 2rem 0;
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+  
+}
+
+.inputLable{
+  width: 50%;
+}
+input{
+  width: 100%;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  background-color: #999;
+
+}
+form h3{
+  font-size: 1.4rem;
+  padding: 1rem 0;
+}
+.input{
+  display: flex; 
+}
+.select{
+  width: 100%;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  background-color: #999;
+  border-color: blue;
+
+}
+option{
+  font-size: 2rem;
+}
+
+h6{
+  color: red;
+  font-size: 2rem;
+}
+.inputBox h1{
+  font-size: 3rem;
+  color: white;
+
+}
+label {
+  font-size: 1.5rem;
+ color: white;
+ display: block;
+
+}
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+ 
+}
+
+/*testimonial*/
+.test{
+  width: 100%;
+  height: 70rem;
+  margin: 4rem ;
+}
+
+
+.testBox{
+  width: 100rem;
+  height: 35rem;
+  margin: auto;
+  border-radius: 1rem;
+  display: flex;
+  box-shadow: 0rem 0rem 0.5rem #999;
+}
+.testBox p{
+  font-size:1.6rem ;
+  margin: 0 0 3rem;
+  
+}
+.testText{
+width: 60rem;
+height: 35rem;
+padding: 3rem;
+
+
+
+}
+.menImage{
+  width: 40rem;
+ height: 35rem;
+  border-top-right-radius: 1rem;
+
+  
+}
+ .menImage img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.htext{
+ text-align: center;
+ margin: 6rem 0;
+
+}
+.htext h1{
+  font-size: 3rem;
+  padding: 2rem 0;
+}
+.blue{
+  width: 100%;
+  height: 20rem;
+  background-color: rgb(1, 1, 53);
+}
+.company{
+
+  display: flex;
+padding: 6rem;
+  gap: 9rem;
+  
+}
+h4{
+  font-size: 2.2rem;
+}
